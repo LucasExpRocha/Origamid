@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>:wolf:Explorer:wolf:</h1>
+    <h1>:wolf:Origamid:wolf:</h1>
     <h4>Cursos da origamid</h4>
 </div>
 <br>
