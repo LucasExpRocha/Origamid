@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">k
 
     <title>Document</title>
+
+    <script defer> document.documentElement.className += ' js'; </script>
 </head>
 
 <body>
@@ -20,9 +22,9 @@
         </ul>
     </nav>
 
-    <section class="grid-section animais" id="animais">
+    <section class="grid-section  js-scroll" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="animais-lista">
+        <ul class="animais-lista js-tabmenu">
             <li><img src="./img/imagem1.jpg" alt=""></li>
             <li><img src="./img/imagem2.jpg" alt=""></li>
             <li><img src="./img/imagem3.jpg" alt=""></li>
@@ -31,7 +33,7 @@
             <li><img src="./img/imagem6.jpg" alt=""></li>
         </ul>
 
-        <div class="animais-descricao">
+        <div class="animais-descricao js-tabcontent">
             <div>
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
@@ -129,9 +131,9 @@
         </div>
     </section>
 
-    <section class="grid-section faq" id="faq">
+    <section class="grid-section faq js-scroll" id="faq">
         <h1 class="titulo">FAQ</h1>
-        <dl class="faq-lista">
+        <dl class="faq-lista js-accordion-list">
             <dt>Qual a idade dos animais?</dt>
             <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
                 médio,
@@ -151,7 +153,7 @@
         </dl>
     </section>
 
-    <section class="grid-section contato" id="contato">
+    <section class="grid-section contato js-scroll" id="contato">
         <h1 class="titulo">Contato</h1>
         <div class="mapa">
             <img src="img/mapa.png">
