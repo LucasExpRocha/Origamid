@@ -32,3 +32,10 @@
 </div>
 <br>
 <hr>
+
+<p><strong>Projeto JavaScript</strong></p>
+<p>O que aprendemos aqui?  Vimos sobre varios assuntos, seleção de elementos, forEach, manipulação da DOM, eventos e entre varias outras coisas interessantes :smile:</p>
+
+<ui>
+  <li><a href="./Javascript/Stage03/Projeto-01">Primeiro projeto</a></li>
+<br>
