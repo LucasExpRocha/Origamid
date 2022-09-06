@@ -18,6 +18,13 @@ console.log(verificarDado(frutas))
 
 const quadrado = {lados: 4}
 
+Object.defineProperties(quadrado, {
+  lados: {
+    value: 4,
+    enumerable: true,
+  }
+})
+
 Object.freeze(quadrado)
 console.log(Object.isFrozen(quadrado))
 
